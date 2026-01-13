@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Building2, Code } from 'lucide-react';
+import { Github, ExternalLink, Building2} from 'lucide-react';
 
 const PlacementProjects = () => {
   const projects = [
@@ -108,7 +108,7 @@ const PlacementProjects = () => {
               <div className="mb-4">
                 <div className="flex items-center gap-3 mb-3">
                   <Building2 className="w-5 h-5 text-cyan-400" />
-                  <span className="text-lg font-semibold text-white">{project.company}</span>
+                  <span className="text-lg font-semibold text-orange-400">{project.company}</span>
                 </div>
                 <h3 className="text-xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors">
                   {project.projectName}

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { School, Award, Calendar, BookOpen, Code } from 'lucide-react';
+import { School, Award, Calendar, BookOpen} from 'lucide-react';
 
 const Education = () => {
   const educationData = {
@@ -122,7 +122,7 @@ const Education = () => {
                     className="flex items-center gap-2 text-gray-300 group"
                   >
                     <div className="w-1.5 h-1.5 bg-green-400 rounded-full group-hover:scale-150 transition-transform duration-300" />
-                    <span className="group-hover:text-white transition-colors">{achievement}</span>
+                    <span className="group-hover:text-white transition-colors text-orange-300">{achievement}</span>
                   </motion.li>
                 ))}
               </ul>
@@ -202,7 +202,7 @@ const Education = () => {
                     className="flex items-center gap-2 text-gray-300 group"
                   >
                     <div className="w-1.5 h-1.5 wb-5 bg-blue-400 rounded-full group-hover:scale-150 transition-transform duration-300" />
-                    <span className="group-hover:text-white transition-colors">{achievement}</span>
+                    <span className="group-hover:text-white transition-colors text-orange-300">{achievement}</span>
                   </motion.li>
                 ))}
               </ul>

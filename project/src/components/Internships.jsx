@@ -221,7 +221,7 @@ const Internships = () => {
                   />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-white mb-1 group-hover:text-cyan-400">{internship.name}</h3>
+                  <h3 className="text-lg font-bold text-orange-400 mb-1 group-hover:text-cyan-400">{internship.name}</h3>
                   <p className="text-cyan-400 font-medium">{internship.company}</p>
                 </div>
               </div>

@@ -108,7 +108,7 @@ const College = () => {
               <BookOpen className="w-6 h-6" />
               Course Description
             </h3>
-            <p className="text-gray-300 leading-relaxed">{collegeData.description}</p>
+            <p className="text-orange-300 leading-relaxed">{collegeData.description}</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -147,7 +147,7 @@ const College = () => {
                     className="flex items-center gap-3 text-gray-300 group"
                   >
                     <Code className="w-5 h-5 text-cyan-400 group-hover:rotate-12 transition-transform duration-300" />
-                    <span className="group-hover:text-white transition-colors">{project}</span>
+                    <span className="group-hover:text-white transition-colors text-orange-300">{project}</span>
                   </motion.li>
                 ))}
               </ul>
@@ -159,7 +159,7 @@ const College = () => {
             <h3 className="text-2xl font-bold text-white mb-4">Stream Details</h3>
             <div className="bg-black/30 rounded-xl p-6 hover:bg-black/40 transition-all duration-300">
               <h4 className="text-xl font-semibold text-cyan-400 mb-2">{collegeData.stream}</h4>
-              <p className="text-gray-300">
+              <p className="text-orange-300">
                 Field of study: Combines electrical engineering and computer science to work on electronic devices, circuits, and communication systems like satellites, mobile networks, and the internet.
 
                 Key topics: Includes microprocessors, VLSI design, embedded systems, and wireless communication.

@@ -110,7 +110,7 @@ const Polytechnic = () => {
               <BookOpen className="w-6 h-6" />
               Course Description
             </h3>
-            <p className="text-gray-300 leading-relaxed">{polytechnicData.description}</p>
+            <p className="text-orange-300 leading-relaxed">{polytechnicData.description}</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -146,7 +146,7 @@ const Polytechnic = () => {
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 }}
-                    className="flex items-center gap-3 text-gray-300 group"
+                    className="flex items-center gap-3 text-orange-300 group"
                   >
                     <Cpu className="w-5 h-5 text-emerald-400 group-hover:rotate-12 transition-transform duration-300" />
                     <span className="group-hover:text-white transition-colors">{project}</span>

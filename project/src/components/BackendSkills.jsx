@@ -118,7 +118,7 @@ const BackendSkills = () => {
             </h1>
             <Database className="w-10 h-10 text-emerald-400" />
           </div>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <p className="max-w-2xl mx-auto text-orange-300">
             Server-side development, database management, and API integration expertise
           </p>
         </div>

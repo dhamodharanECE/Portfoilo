@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Code, Layout, Palette, Zap, CheckCircle, Sparkles } from 'lucide-react';
+import { Layout, Palette, Zap, CheckCircle, Sparkles } from 'lucide-react';
 
 const FrontendSkills = () => {
   const skills = [
@@ -101,12 +101,12 @@ const FrontendSkills = () => {
             </h1>
             <Palette className="w-10 h-10 text-cyan-400" />
           </div>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <p className="text-orange-300 max-w-2xl mx-auto">
             Modern frontend technologies and frameworks for building responsive, 
             interactive, and high-performance web applications
           </p>
         </div>
-
+        <br />
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {skills.map((skill, index) => (
             <motion.div

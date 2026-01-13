@@ -19,22 +19,22 @@ const Navbar = () => {
 
   return (
     <nav className="fixed w-full z-50 bg-black/30 backdrop-blur-lg border-b border-white/10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-start h-16">
-          <div className="flex items-center">
-            <Link to="/" className="text-white text-2xl font-bold">
-              My<span className="text-cyan-400">Portfolio</span>
+      <div className="max-w-9xl mx-auto px-5 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          <div className="flex items-start">
+            <Link to="/" className="text-white text-xl font-bold">
+              DHAMO<span className="text-cyan-400">DHARAN</span>
             </Link>
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-center space-x-0">
+            <div className="ml-2 flex items-center space-x-1">
               {navItems.map((item) => (
                 <Link
                   key={item.name}
                   to={item.path}
-                  className="flex items-center gap-2 text-gray-300 hover:text-white hover:bg-white/10 px-3 py-2 rounded-lg transition-all duration-300"
+                  className="flex items-center gap-2 text-gray-300 hover:text-cyan-300 px-3 py-2 rounded-lg transition-all duration-300"
                 >
                   {item.icon}
                   {item.name}
